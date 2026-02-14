@@ -139,7 +139,7 @@ void shard(int x, int y, int size){
   rect(x+size/3.0-size/45000,y+size/2.0+size/42000-size/75000.0,size/30000.0,size/60000.0); //2nd bottom dotter
   rect(x+size/3.0,y+size/2.0+size/25000-size/75000.0,size/40000.0,size/60000.0); //bottom dotter
   if (saz > 2000000000){
-    System.out.println(saz);
+    //System.out.println(saz);
     fill(0);
     stroke(255,0,0);
     rect(x+size/3.0,y+size/2.0,size/3000000,size/3000000);
@@ -147,6 +147,7 @@ void shard(int x, int y, int size){
   }
   }}
 }
+
 
 
 
